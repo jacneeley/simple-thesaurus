@@ -6,13 +6,13 @@ Idea is that a User types in a word and the Thesaurus will return relevant infor
 
 ### Project Outline
 
-- Simple:
+#### Simple:
 
--- App fetches synonyms from a thesaurus API
--- Object is created using the type alias to handle data from the Thesaurus API
--- User can query words using the textbox
+- App fetches synonyms from a thesaurus API
+- Object is created using the type alias to handle data from the Thesaurus API
+- User can query words using the textbox
 
-- Detailed:
+#### Detailed:
 
 Simple React app that fetches data from a Backend.<br>
 The Page is dynamic, if a user clicks on another word, data will be refetched.<br>
