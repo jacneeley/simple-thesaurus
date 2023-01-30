@@ -7,9 +7,9 @@ type Synonym = {
 };
 
 export const useFetchWords = () => {
-    //we meed to store results and display them
-  const [synonyms, setSyn] = useState<Synonym[]>([])
-  const [isLoad, setLoad] = useState(false);
+  //we meed to store results and display them
+  const [synonyms, setSyn] = useState<Synonym[]>([]);
+  const [isLoad, setLoad] = useState(false); //state for loading
 
   const getWord = (word: string) => {
     setLoad(true);
