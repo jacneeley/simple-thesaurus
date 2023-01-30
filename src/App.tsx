@@ -27,7 +27,7 @@ function App() {
     <div className="fade-in">
 
       <Header/>
-      <section className='content fade-in-2'>
+      <div className='content fade-in-2'>
         <section>
           <form onSubmit={handleFetchRequest}> 
             <label htmlFor='word-input'>Search:</label>
@@ -49,7 +49,7 @@ function App() {
             </ul>
           )}
         </section>
-      </section>
+      </div>
     </div>
   )
 }

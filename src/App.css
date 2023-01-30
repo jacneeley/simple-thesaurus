@@ -2,14 +2,12 @@
   max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
-  /* text-align: center; */
 }
 
 .content {
-  position: absolute;
-  top: 25%;
-  left: 45%;
-  margin: auto;
+  margin: 25% auto;
+  padding: 20px;
+  max-width: 500px;
 }
 /* animations */
 .fade-in {
