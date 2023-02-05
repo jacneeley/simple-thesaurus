@@ -6,4 +6,4 @@
  - npm install gh-pages --save -dev to install necessary scripts for deployment
  - push up changes to package and package-lock.JSON
  - run npm run build to create the dist folder
- - finally run npm run deploy
+ - finally run npm run deploy to publish
